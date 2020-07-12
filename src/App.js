@@ -55,7 +55,7 @@ export default class App extends Component {
                     <Drawer.Screen name="Sport" component={HomeStack} initialParams={{ news: 4 }}/>
                     <Drawer.Screen name="Business" component={HomeStack} initialParams={{ news: 129 }}/>
                     <Drawer.Screen name="Science" component={HomeStack} initialParams={{news: 6}}/>
-                    <Drawer.Screen name="About" component={HomeStack} options={{title: ""}}/>
+                    <Drawer.Screen name="About" component={HomeStack} options={{title: "yes"}}/>
                 </Drawer.Navigator>
             </NavigationContainer>
             </>
